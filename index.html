@@ -1,36 +1,55 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" type="text/css" href="/css/styles.css">
         <title>Basic Google Page</title>        
     </head>
     <body>
-        <nav class="top">
-            <ul>
-                <li class="nav-item"><a>About</a></li>
-                <li class="nav-item"><a>Store</a></li>
-                <li class="nav-item"><a>Gmail</a></li>
-                <li class="nav-item"><a>Images</a></li>
-                <li class="nav-item"><a>icon</a></li>
-                <li class="nav-item"><a>LetterIcon</a></li>
+        <nav class="navbar">
+            <ul class="navlinks">
+                <li class="nav-item"><a href="https://www.google.com/gmail/" target="_blank">Gmail</a></li>
+                <li class="nav-item"><a href="https://www.google.com/imghp?hl=en" target="_blank">Images</a></li>
+                <li class="nav-item nav-app-icon"><a href="https://www.google.co.za/intl/en/about/products?tab=wh" target="_blank">
+                    <img class="apps-icon" src="/img/google_apps_icon_512x512.png">
+                </a></li>
+                <li class="nav-item nav-signin">
+                    <a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/" target="top" class="sign-in">Sign in</a>
+                </li>  
             </ul>
         </nav>
-        <div class="google-logo">
 
-        </div>
-        <div class="search">
+        <main>
+            <div class="google-logo-main">
+                <img class="logo-img"  src="/img/google-logo.png">
+            </div>
+            <div class="search-container">
+                <div class="search-wrap">
+                    <div class="input-part">
+                            <input type="text" class="search-box">
+                        </div>
+                        <div class="mic-icon">
+                            <img src="img/g-mic.png" class="mic-img"> 
+                        </div>        
+                    </div>
+            </div>
+            
+            <div class="search-btns">
+                <input class="g-search-btn" value="Google Search" type="submit" >
+                <input class="lucky-btn" value="I'm Feeling Lucky" type="submit" >
+            </div>
+            <div class="languages">
 
-        </div>
-        <div class="buttons">
+            </div>
 
-        </div>
+        </main>
+
         <footer>
-            <ul>
-                <li class="footer-item"><a></a></li>
-                <li class="footer-item"><a></a></li>
-                <li class="footer-item"><a></a></li>
-                <li class="footer-item"><a></a></li>
-                <li class="footer-item"><a></a></li>
-            </ul>
+            <div class="country">
+
+            </div>
+            <div class="main-footer">
+                
+            </div>
         </footer>
     </body>
 </html>
