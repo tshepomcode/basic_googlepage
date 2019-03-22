@@ -105,6 +105,7 @@ a.sign-in {
 }
 
 .input-part input[type="text"] {
+    margin-left: 10px;
     width: 100%;
     border: none;
     line-height: 34px;
@@ -183,12 +184,10 @@ a.sign-in {
 footer {
     background: #f2f2f2;
     border-top: 1px solid #e4e4e4;
-    /* line-height: 40px; */
 }
 
 .country {
     border-bottom: 1px solid #e4e4e4;
-    /* margin-left: 30px; */
     color:  rgba(0,0,0,.54);
     font-size: 15px;
 }
@@ -196,6 +195,14 @@ footer {
 .za {
     margin-left: 30px;
     line-height: 40px;
+}
+
+/* FOOTER */
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
 }
 
 .main-footer {
@@ -219,7 +226,7 @@ footer {
     text-decoration: none;
     color: #5f6368;
     font-size: 13px;
-    white-space: nowrap;
+    /* white-space: nowrap; */
 }
 
 .main-footer ul li a:hover {
@@ -230,5 +237,3 @@ footer {
 .main-footer ul li a:visited {
     color: #609;
 }
-
-
